@@ -26,7 +26,7 @@ call plug#end()
 
 nnoremap <F5> :UndotreeToggle<CR>
 
+"gruvbox config
 let g:gruvbox_contrast_dark='medium'
-
 colorscheme gruvbox
 set background=dark
