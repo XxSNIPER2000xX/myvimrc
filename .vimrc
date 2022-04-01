@@ -24,7 +24,13 @@ Plug 'mbbill/undotree'
 
 call plug#end()
 
+"binds
 nnoremap <F5> :UndotreeToggle<CR>
+inoremap { {}<Esc>ha
+inoremap ( ()<Esc>ha
+inoremap [ []<Esc>ha
+inoremap " ""<Esc>ha
+inoremap ' ''<Esc>ha
 
 "gruvbox config
 let g:gruvbox_contrast_dark='medium'
